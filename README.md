@@ -23,7 +23,7 @@ The following **required** functionality is completed:
 - [X] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
   - [X] Clicking on a card flips it over, showing the back with corresponding information 
   - [X] Clicking on a flipped card again flips it back, showing the front
-- [ ] **Clicking on the next button displays a random new card**
+- [X] **Clicking on the next button displays a random new card**
 
 The following **optional** features are implemented:
 
@@ -44,6 +44,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 GIF no sound
+![week2try1](https://github.com/user-attachments/assets/39d2e7b3-214d-49a4-9227-40bef062c94a)
 
 
 Imgur post
