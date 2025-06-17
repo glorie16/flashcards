@@ -28,6 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url("fwallpaper.jpg");
+  background-size: cover;       /* makes the image cover the entire area */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat;
 }
 
 h1 {
