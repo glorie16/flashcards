@@ -17,27 +17,43 @@ const App = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [flipped, setFlipped] = useState(false);
+
+
   const card = flashcards[currentIndex];
 
 
   const goNext = () => {
+
+
     let newIndex;
     do {
       newIndex = Math.floor(Math.random() * flashcards.length);
     } while (newIndex === currentIndex);
-  setCurrentIndex(newIndex);
+
+    
+    setCurrentIndex(newIndex);
+      setFlipped(false);
+  };
+  
+  const handleFlip = () => {
+
+  setFlipped(prev => !prev);
 };
 
   return (
     <div className="App">
       <h1>Tagalog Flash Cards</h1>
       <h3>Learn some common Tagalog words and phrases used in conversation!</h3>
+      <h3> Number of cards: {flashcards.length}</h3>
 
     <div className="flashcard">
-      <Flashcard word={card.word} translation={card.translation} />
+        <Flashcard word={card.word} translation={card.translation} onClick={handleFlip} 
+          flipped={flipped}
+        />
       </div>
 
-       < button onClick = { goNext } className = "nav-button" >Next</button>
+       < button onClick = { goNext } className = "next-button" >Next</button>
          </div>
   )
   

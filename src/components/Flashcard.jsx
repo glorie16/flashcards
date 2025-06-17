@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import './Flashcard.css';
 
-const Flashcard = ({ word, translation }) => {
-    const [flipped, setFlipped] = useState(false);
-    const handleClick = () => {
-        setFlipped(!flipped);
-    }
+const Flashcard = ({ word, translation, flipped, onClick}) => {
         return (
-            <div className="cardInfo" onClick={handleClick}>
+            <div className={`flashcard-container ${flipped ? 'flipped' : ''}`} onClick={onClick}>
 
-                <h2 className="content">
-                    {flipped ? translation : word}
-                </h2>
+                <div className="flashcard-inner">
+                    <div className="flashcard-front">
+                        <h2>{word}</h2>
+                    </div>
+                    <div className="flashcard-back">
+                        <h2 className='back-text'>{translation}</h2>
+                    </div>
+                </div>
             </div>
         )
     }
