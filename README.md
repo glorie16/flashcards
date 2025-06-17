@@ -1,6 +1,6 @@
 # Web Development Project 2 - *Tagalog Learning Flashcards*
 
-Submitted by: **Gloriele mendoza**
+Submitted by: **Gloriele Mendoza**
 
 This web app: **This web app has 10 total flashcards, with the front being the Tagalog word, and the back being the definition. Clicking on the card flips to the backside
 to reveal the definition, and you can click on it again to return to the front. Clicking on the "next" button goes to a randomly selected but not repeating card.**
@@ -43,10 +43,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+GIF no sound
+
+
+Imgur post
+https://imgur.com/a/project2-7NRAGPY
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
+- Zoom for recording
+- ScreenToGif for turning video into GIF
+- Also posted on Imgur
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
